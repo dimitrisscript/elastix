@@ -1,0 +1,7 @@
+You just have to set to ptmp in:
+
+/etc/dahdi/genconf_parameters
+bri_sig_style bri_ptmp
+
+and in /etc/asterisk/dahdi_channels.conf
+signalling = bri_cpe_ptmp
